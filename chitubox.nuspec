@@ -6,7 +6,6 @@
     <owners>basictheprogram</owners>
     <title>chitubox (Install)</title>
     <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
-    <!-- projectUrl is required for the community feed -->
     <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
     <iconUrl></iconUrl>
     <copyright>Year Software Vendor</copyright>
