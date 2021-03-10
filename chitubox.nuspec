@@ -2,31 +2,57 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>chitubox</id>
-    <version>__REPLACE__</version>
+    <version>1.8.1</version>
     <owners>basictheprogram</owners>
-    <title>chitubox (Install)</title>
-    <authors>__REPLACE_AUTHORS_OF_SOFTWARE_COMMA_SEPARATED__</authors>
-    <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl>
-    <iconUrl></iconUrl>
-    <copyright>Year Software Vendor</copyright>
-    <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <title>chitubox</title>
+    <authors>CHITUBOX</authors>
+    <projectUrl>https://github.com/basictheprogram/chocolatey-chitubox</projectUrl>
+    <iconUrl>https://basictheprogram.github.io/chocolatey-chitubox/icons/chitubox.png</iconUrl>
+    <copyright>Copyright © 2020 CHITUBOX</copyright>
+    <licenseUrl>https://www.chitubox.com/en/article/law/legal</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>chitubox </tags>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
-    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>-->
+    <projectSourceUrl>https://github.com/basictheprogram/chocolatey-chitubox</projectSourceUrl>
+    <docsUrl>https://forum.chitubox.com/?attach-download-60.htm</docsUrl>
+    <mailingListUrl>https://www.chitubox.com/en/support/faq/chitubox-free</mailingListUrl>
+    <bugTrackerUrl>https://forum.chitubox.com/?forum-3.htm</bugTrackerUrl>
+    <tags>chitubox SLA DLP LCD Slicer</tags>
+    <releaseNotes>https://www.chitubox.com/en/article/whatsnew/chitubox-free/1.8.1</releaseNotes>
+    <summary>A free 3D printing slicer software to help you design and slice you objects.</summary>
+    <description>
+    # Versatile editing tools
+    Being easy doesn't mean lack of functionality. CHITUBOX Free gives you the tools you
+    would need for editing, including rotation, scaling, mirroring, repairing,
+    hollowing, cloning, hole digging, .... to help you generate perfect results.
+    And they re easy to understand, convenient to operate and you can view your edits
+    all at once.
+
+    # Painless multi-model processing
+    Arranging and organizing multiple models can be tedious at the best of times. But
+    with CHITUBOX Free, everything is arranged in a neat way with two clicks.
+
+    And NOTE! Processing multiple models in CHITUBOX Free is NOT slow. When importing,
+    generating supports for and slicing them, these are all done very quickly, even
+    when the models are large.
+
+    # Straightforward support adding
+    Adding support structures for your models can be as quickly as one click thanks to
+    the program's auto mated identification and analysis of the model.
+
+    You can also add, edit and move supports on your own. The functionalities to
+    fine-tune support settings enable you to cali brate your support shapes, thickness,
+    and density.
+
+    # Fast and easy model slicing
+    Slicing is easy on CHITUBOX Free not only because of its simple UI, but also the
+    fast speed it processes the slicing of your model. You don't have to wait for
+    long -- only a few seconds and you'll see the result.
+
+    And with the preview feature, you can check your sliced model layer by layer and
+    know how the printer would construct it when printing.
+    </description>
+    <dependencies>
+        <dependency id="autoit" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
